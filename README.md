@@ -1,6 +1,48 @@
 # EE6407-Genetic-Algorithms-And-Machine-Learning-Content
 
-# 1.Content
+# 1.OBJECTIVE
+
+The objective of first half of this course is to provide in-depth treatment on **optimization** procedures based on **evolutionary algorithms**. As most modern optimization problems are complex with mixed real-integer variables, numerous locally optimal solutions, discontinuities, and so on. Evolutionary algorithms can handle all these issues more effectively than other optimization algorithms.
+
+The objective of second half of this course is to equip students with **machine learning** theories and paradigms. It gives the students an understanding of the most current machine learning algorithms such as **deep learning, kernel methods**, **randomization-based** methods so that the students can apply the knowledge to **data mining, pattern recognition and regression problems.**
+
+# 2.DESIRED OUTCOME
+
+After completing this course, students would be able to apply various evolutionary optimization algorithms to solve problems in their own research areas. Optimization problems are encountered in diverse disciplines. In addition, machine learning methods are used for data analytics, recognition, regression and time series forecasting. Hence, students from diverse backgrounds will be able to appreciate and benefit from studying this course.
+
+# 3.CONTENT
+
+Review of Combinatorics and Probability. 
+
+Introduction of Genetic Algorithms.
+
+Differential Evolution. 
+
+Particle Swarm Optimization. 
+
+Advanced Techniques. 
+
+Principles of Machine Learning. 
+
+Paradigms of Machine Learning. 
+
+Kernel Methods.
+
+# 4.**ASSESSMENT SCHEME**
+
+Continuous Assessment 40%
+
+Final Examination 60%
+
+# 5.**REFERENCES**
+
+1. Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer, 2016 (Latest Edition).
+
+2. Trevor Hastie, Robert Tibshirani, Jerome Friedman, The Elements of Statistical Learning (Springer Series in Statistics), 9th printing, 2017.
+
+3. Andries P. Engelbrecht, Computational Intelligence: An Introduction, Wiley, 2007
+
+# 6.Content In Chinese
 
 遗传算法
 
@@ -145,3 +187,18 @@
 5.8健身类替换
 
 5.9选择压力
+
+
+
+
+
+# 7.Disclaimer
+
+All content in this  is based solely on the contributors' personal work, Internet data.
+All tips are for reference only and are not guaranteed to be 100% correct.
+If you have any questions, please submit an Issue or PR.
+In addition, if it infringes your copyright, please contact us to delete it, thank you.
+
+
+
+#### Copyright © School of Electrical & Electronic Engineering, Nanyang Technological University. All rights reserved.
