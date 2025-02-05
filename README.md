@@ -1,14 +1,24 @@
-# EE6407-Genetic-Algorithms-And-Machine-Learning-Content
+# EE6407-Genetic-Algorithms-And-Machine-Learning-Content (Ongoing)
 
-# 1.OBJECTIVE
+# 1.Introduction
+
+This course, **EE6407 - Genetic Algorithms and Machine Learning**, offers an integrated view of these two complementary domains. 
+
+The first half of the course delves into **evolutionary algorithms**—their design, implementation, and applications in complex optimization tasks—while the second half provides a comprehensive introduction to **machine learning** paradigms, equipping students with the latest theoretical foundations and practical approaches to contemporary ML challenges. 
+
+By blending these topics, the course ensures a holistic understanding of how to address diverse computational problems through both optimization and learning strategies, setting the stage for advanced applications and further research in this rapidly evolving field.
+
+This repository serves as a comprehensive resource for students and enthusiasts alike. 
+
+1. **Personal Solutions to Past Exams** – Detailed, step-by-step write-ups of previously tested questions to guide your revision and deepen conceptual understanding.
+2. **PPT Example References** – Walkthroughs of example problems and exercises presented in the lecture slides, clarifying key ideas and methodologies.
+3. **Analysis of Challenging Topics** – In-depth discussions and breakdowns of complex areas, helping you navigate common pitfalls and master advanced concepts.
+
+# 2.OBJECTIVE
 
 The objective of first half of this course is to provide in-depth treatment on **optimization** procedures based on **evolutionary algorithms**. As most modern optimization problems are complex with mixed real-integer variables, numerous locally optimal solutions, discontinuities, and so on. Evolutionary algorithms can handle all these issues more effectively than other optimization algorithms.
 
 The objective of second half of this course is to equip students with **machine learning** theories and paradigms. It gives the students an understanding of the most current machine learning algorithms such as **deep learning, kernel methods**, **randomization-based** methods so that the students can apply the knowledge to **data mining, pattern recognition and regression problems.**
-
-# 2.DESIRED OUTCOME
-
-After completing this course, students would be able to apply various evolutionary optimization algorithms to solve problems in their own research areas. Optimization problems are encountered in diverse disciplines. In addition, machine learning methods are used for data analytics, recognition, regression and time series forecasting. Hence, students from diverse backgrounds will be able to appreciate and benefit from studying this course.
 
 # 3.CONTENT
 
@@ -28,13 +38,7 @@ Paradigms of Machine Learning.
 
 Kernel Methods.
 
-# 4.**ASSESSMENT SCHEME**
-
-Continuous Assessment 40%
-
-Final Examination 60%
-
-# 5.**REFERENCES**
+# 4.**REFERENCES**
 
 1. Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer, 2016 (Latest Edition).
 
@@ -42,9 +46,9 @@ Final Examination 60%
 
 3. Andries P. Engelbrecht, Computational Intelligence: An Introduction, Wiley, 2007
 
-# 6.Content In Chinese
+# 5.Content In Chinese
 
-## 6.1 遗传算法
+## 5.1 遗传算法
 
 1.有待解决的问题
 
@@ -188,7 +192,7 @@ Final Examination 60%
 
 5.9选择压力
 
-## 6.2 机器学习
+## 5.2 机器学习
 
 1.人工智能、机器学习、神经网络和深度学习:概览
 
@@ -244,7 +248,42 @@ Final Examination 60%
 
 1.8摘要
 
+# 6.List of Github
 
+`````
+├─1.Exam
+│      .keep
+│      
+├─2.PPT Example
+│  ├─1.GA
+│  │      1.4.2 Eight-Queen-v2.pdf
+│  │      1.4.2 TSP belong to NP-complete.pdf
+│  │      3.3 The 8-queens problem Recombination.pdf
+│  │      3.4 EC & neighbourhood search.pdf
+│  │      3.4 SGA EXAMPLE f(x) = x^2.pdf
+│  │      4.6.10 循环交叉.pdf
+│  │      4.6.11 边缘重组.pdf
+│  │      4.6.9 部分映射交叉(PMX) EXAMPLE1.pdf
+│  │      4.6.9 部分映射交叉(PMX) EXAMPLE2.pdf
+│  │      
+│  └─2.ML
+├─3.Understand
+│      .keep
+│      
+└─4.Resource
+    ├─1.OUTLINE
+    │      EE6407-OUTLINE.pdf
+    │      
+    ├─2.EXAM-SUMMARY-CN
+    │      6407考试原题.docx
+    │      
+    └─3.REFERENCES
+            Computational Intelligence. An Introduction (Andries P. Engelbrecht) (Z-Library).pdf
+            Introduction-To-Evolutionary-Computing.pdf
+            Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf
+            The Elements of Statistical Learning Data Mining, Inference, and Prediction (2nd edition) (12print 2017) (Trevor Hastie, Robert Tibshirani etc.) (Z-Library).pdf
+            遗传算法-基本术语(中英文对照).pdf
+`````
 
 
 

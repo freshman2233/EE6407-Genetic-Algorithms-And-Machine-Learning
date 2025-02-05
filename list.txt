@@ -1,0 +1,42 @@
+卷 Data 的文件夹 PATH 列表
+卷序列号为 A07A-31F5
+D:.
+│  .gitattributes
+│  .gitignore
+│  LICENSE
+│  list.txt
+│  README.md
+│  
+├─1.Exam
+│      .keep
+│      
+├─2.PPT Example
+│  ├─1.GA
+│  │      1.4.2 Eight-Queen-v2.pdf
+│  │      1.4.2 TSP belong to NP-complete.pdf
+│  │      3.3 The 8-queens problem Recombination.pdf
+│  │      3.4 EC & neighbourhood search.pdf
+│  │      3.4 SGA EXAMPLE f(x) = x^2.pdf
+│  │      4.6.10 循环交叉.pdf
+│  │      4.6.11 边缘重组.pdf
+│  │      4.6.9 部分映射交叉(PMX) EXAMPLE1.pdf
+│  │      4.6.9 部分映射交叉(PMX) EXAMPLE2.pdf
+│  │      
+│  └─2.ML
+├─3.Understand
+│      .keep
+│      
+└─4.Resource
+    ├─1.OUTLINE
+    │      EE6407-OUTLINE.pdf
+    │      
+    ├─2.EXAM-SUMMARY-CN
+    │      6407考试原题.docx
+    │      
+    └─3.REFERENCES
+            Computational Intelligence. An Introduction (Andries P. Engelbrecht) (Z-Library).pdf
+            Introduction-To-Evolutionary-Computing.pdf
+            Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf
+            The Elements of Statistical Learning Data Mining, Inference, and Prediction (2nd edition) (12print 2017) (Trevor Hastie, Robert Tibshirani etc.) (Z-Library).pdf
+            遗传算法-基本术语(中英文对照).pdf
+            
