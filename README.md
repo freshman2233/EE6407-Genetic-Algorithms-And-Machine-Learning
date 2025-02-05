@@ -14,6 +14,10 @@ This repository serves as a comprehensive resource for students and enthusiasts 
 2. **PPT Example References** – Walkthroughs of example problems and exercises presented in the lecture slides, clarifying key ideas and methodologies.
 3. **Analysis of Challenging Topics** – In-depth discussions and breakdowns of complex areas, helping you navigate common pitfalls and master advanced concepts.
 
+If you happen to have a GitHub account and find this repository helpful, please consider giving it a star⭐.
+
+![3b54fe6d9ee63d988dc3834460c147b](./README.assets/3b54fe6d9ee63d988dc3834460c147b.jpg)
+
 # 2.OBJECTIVE
 
 The objective of first half of this course is to provide in-depth treatment on **optimization** procedures based on **evolutionary algorithms**. As most modern optimization problems are complex with mixed real-integer variables, numerous locally optimal solutions, discontinuities, and so on. Evolutionary algorithms can handle all these issues more effectively than other optimization algorithms.
