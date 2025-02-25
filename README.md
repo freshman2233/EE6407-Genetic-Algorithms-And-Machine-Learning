@@ -1,4 +1,8 @@
-# EE6407-Genetic-Algorithms-And-Machine-Learning-Content (Ongoing)
+# EE6407 Genetic Algorithms And Machine Learning
+
+**语言**
+
+[English](./README.md)     [中文](./README_CN.md)
 
 # 1.Introduction
 
@@ -50,391 +54,259 @@ Kernel Methods.
 
 3. Andries P. Engelbrecht, Computational Intelligence: An Introduction, Wiley, 2007
 
-# 5.Content In Chinese
-
-## 5.1 遗传算法
-
-1.有待解决的问题
-
-1.1.“黑匣子”模型
-
-1.1.1优化
-
-1.1.2建模
-
-1.1.3模拟
-
-1.2 搜索问题
-
-
-
-1.3.优化vs.约束满足
-
-1.3.1 目标函数
-
-1.3.2 约束
-
-1.3.3 COP约束优化问题
-
-1.3.4 CSP约束满足问题
-
-1.3.5 FOP自由问题
-
-1.3.6 没有问题
-
-
-
-1.4.NP问题
-
-1.4.1 关键概念
-
-1.4.2 P、NP、NP-complete 和 NP-hard 类
-
-1.4.3 类之间的差异
-
-
-
-2.进化计算:起源
-
-2.1 历史的角度
-
-2.2 生物学灵感
-
-2.2.1 达尔文进化论
-
-2.2.2 遗传学
-
-2.3 进化计算比喻总结
-
-
-
-3.什么是进化算法?
-
-3.1 进化算法 方案
-
-3.1.1 EA的总体方案
-
-3.1.2伪代码的EA方案
-
-3.1.3进化过程的通用模型
-
-3.1.4进化的两个支柱
-
-
-
-3.2 主要进化算法组件
-
-3.2.1表示
-
-3.2.1.1角色
-
-3.2.1.2基因型
-
-3.2.1.3表现型
-
-3.2.1.4编码
-
-3.2.1.5解码
-
-3.2.1.6示例:用二进制代码表示整数值
-
-3.2.2评估(适应度)功能
-
-3.2.3人口
-
-3.2.4选择机制
-
-3.2.5变体算子 
-
-3.2.6突变
-
-3.2.7重组
-
-3.2.8初始化/终止
-
-3.2.9EA有哪些不同类型
-
-
-
-
-
-
-
-3.3例子:8皇后问题
-
-3.3.1表示
-
-3.3.1.1表现型
-
-3.3.1.2基因型
-
-3.3.2适应性评估
-
-3.3.3变异
-
-3.3.4重组
-
-
-
-3.4 例子:f(x)=x^2
-
-3.5 典型进化算法行为
-
-3.6 进化计算和全局优化
-
-3.7 进化计算及社区搜索
-
-
-
-4.表征、突变和重组
-
-4.1 进化算法方案:进化算法的总体方案
-
-4.2 表示和变化操作符的作用
-
-4.3 二进制表示
-
-4.3.1 突变
-
-4.3.2-点交叉
-
-4.3.3可选的交又算子
-
-4.3.4n点交叉
-
-4.3.5均匀交叉
-
-4.3.6 交叉还是变异?
-
-
-
-4.4整数表示
-
-4.5实数或浮点表示
-
-4.5.1 在位串上映射实数
-
-4.5.2 均匀变异
-
-4.5.3 非均匀变异
-
-4.5.4 自适应变异
-
-4.5.5 交叉算子
-
-4.5.6 单算术交叉
-
-4.5.7 简单的算术交叉
-
-4.5.8 全算术交叉
-
-4.5.9 混合交叉
-
-4.5.10 概述不同可能的后代
-
-4.5.11多父重组
-
-4.5.12多父重组，类型1
-
-4.5.13多父重组，类型2
-
-
-
-4.6排列表示
-
-4.6.1TSP示例
-
-4.6.2突变
-
-4.6.3交换突变
-
-4.6.4插入突变
-
-4.6.5乱序突变
-
-4.6.6反转突变
-
-4.6.7交叉运算符
-
-4.6.8顺序1阶交叉
-
-4.6.9 部分映射交叉(PMX)
-
-4.6.10 循环交叉
-
-4.6.11 边缘重组
-
-4.7树表示
-
-
-
-5.适应性，选择和种群管理
-
-5.1 进化算法的总体方案
-
-5.2人口管理模式:导论
-
-
-
-5.3亲本选择
-
-5.3.1适合-比例选择
-
-5.3.1.1窗口化缩放
-
-5.3.1.2西格玛缩放
-
-
-
-5.3.2基于等级的选择
-
-
-
-5.4基于排名的选择
-
-5.4.1线性排名
-
-5.4.2指数排名
-
-
-
-5.5家长选择
-
-5.5.1锦标赛选择
-
-
-
-5.6统一父代选择
-
-5.7幸存者选择
-
-5.8基于适应度的替换
-
-5.9选择压力
-
-## 5.2 机器学习
-
-1.人工智能、机器学习、神经网络和深度学习:概览
-
-1.机器学习简介
-
-1.1 什么是人类学习?
-
-1.2人类学习的类型
-
-1.2.1在专家指导下学习
-
-1.2.2由专家获得的知识指导的学习
-
-1.2.3通过自学
-
-1.3什么是机器学习?
-
-1.3.1机器是如何学习的?
-
-1.3.1.1抽象
-
-1.3.1.2归纳
-
-1.4机器学习类型
-
-1.4.1监督学习
-
-1.4.1.1分类
-
-1.4.1.2.回归
-
-1.4.2无监督学习
-
-1.4.3强化学习
-
-1.5机器学习的应用
-
-1.5.1银行与金融
-
-1.5.2 保险
-
-1.5.3医疗保健
-
-1.6机器学习领域的先进语言/工具
-
-1.6.1 Python
-
+# 5.Content
+
+5.1GeneticAlgorithms
+
+1.ProblemstoBeSolved
+
+1.1"BlackBox"Model
+1.1.1Optimization
+1.1.2Modeling
+1.1.3Simulation
+
+1.2SearchProblems
+
+1.3Optimizationvs.ConstraintSatisfaction
+1.3.1ObjectiveFunction
+1.3.2Constraints
+1.3.3COP(ConstraintOptimizationProblem)
+1.3.4CSP(ConstraintSatisfactionProblem)
+1.3.5FOP(FreeOptimizationProblem)
+1.3.6NoProblem
+
+1.4NPProblems
+1.4.1KeyConcepts
+1.4.2ClassesP,NP,NPcomplete,andNPhard
+1.4.3DifferencesBetweenClasses
+
+2.EvolutionaryComputation:Origins
+
+2.1HistoricalPerspective
+2.2BiologicalInspiration
+2.2.1DarwinianEvolution
+2.2.2Genetics
+
+2.3SummaryofEvolutionaryComputationMetaphors
+
+3.WhatAreEvolutionaryAlgorithms?
+
+3.1EvolutionaryAlgorithmFramework
+3.1.1GeneralEvolutionaryAlgorithmFramework
+3.1.2PseudocodeofEvolutionaryAlgorithm
+3.1.3GeneralModeloftheEvolutionaryProcess
+3.1.4TwoPillarsofEvolution
+
+3.2MajorComponentsofEvolutionaryAlgorithms
+3.2.1Representation
+3.2.1.1Roles
+3.2.1.2Genotype
+3.2.1.3Phenotype
+3.2.1.4Encoding
+3.2.1.5Decoding
+3.2.1.6Example:RepresentingIntegerValueswithBinaryCode
+3.2.2Evaluation(Fitness)Function
+3.2.3Population
+3.2.4SelectionMechanism
+3.2.5VariationOperators
+3.2.6Mutation
+3.2.7Recombination
+3.2.8Initialization/Termination
+3.2.9DifferentTypesofEvolutionaryAlgorithms
+
+3.3Example:The8QueensProblem
+3.3.1Representation
+3.3.1.1Phenotype
+3.3.1.2Genotype
+3.3.2FitnessEvaluation
+3.3.3Mutation
+3.3.4Recombination
+
+3.4Example:\(f(x)=x^2\)
+3.5TypicalEvolutionaryAlgorithmBehavior
+3.6EvolutionaryComputationandGlobalOptimization
+3.7EvolutionaryComputationandCommunitySearch
+
+4.Representation,Mutation,andRecombination
+
+4.1EvolutionaryAlgorithmFramework:GeneralEvolutionaryAlgorithmFramework
+4.2RoleofRepresentationandVariationOperators
+
+4.3BinaryRepresentation
+4.3.1Mutation
+4.3.2OnePointCrossover
+4.3.3AlternativeCrossoverOperators
+4.3.4nPointCrossover
+4.3.5UniformCrossover
+4.3.6CrossoverorMutation?
+
+4.4IntegerRepresentation
+4.5RealValuedorFloatingPointRepresentation
+4.5.1MappingRealNumbersontoBitStrings
+4.5.2UniformMutation
+4.5.3NonUniformMutation
+4.5.4AdaptiveMutation
+4.5.5CrossoverOperators
+4.5.6SingleArithmeticCrossover
+4.5.7SimpleArithmeticCrossover
+4.5.8WholeArithmeticCrossover
+4.5.9BlendCrossover
+4.5.10OverviewofDifferentPossibleOffspring
+4.5.11MultiParentRecombination
+4.5.12MultiParentRecombinationType1
+4.5.13MultiParentRecombinationType2
+
+4.6PermutationRepresentation
+4.6.1TSPExample
+4.6.2Mutation
+4.6.3SwapMutation
+4.6.4InsertionMutation
+4.6.5ScrambleMutation
+4.6.6InversionMutation
+4.6.7CrossoverOperators
+4.6.8Order1Crossover
+4.6.9PartiallyMappedCrossover(PMX)
+4.6.10CycleCrossover
+4.6.11EdgeRecombination
+4.7TreeRepresentation
+
+5.Fitness,Selection,andPopulationManagement
+
+5.1GeneralEvolutionaryAlgorithmFramework
+5.2PopulationManagementModels:Introduction
+
+5.3ParentSelection
+5.3.1FitnessProportionalSelection
+5.3.1.1WindowedScaling
+5.3.1.2SigmaScaling
+
+5.4RankBasedSelection
+5.4.1LinearRanking
+5.4.2ExponentialRanking
+
+5.5ParentSelection
+5.5.1TournamentSelection
+
+5.6UniformParentSelection
+5.7SurvivorSelection
+5.8FitnessBasedReplacement
+5.9SelectionPressure
+
+
+
+5.2MachineLearning
+
+1.ArtificialIntelligence,MachineLearning,NeuralNetworks,andDeepLearning:Overview
+
+1.1IntroductiontoMachineLearning
+
+1.2WhatisHumanLearning?
+1.2.1TypesofHumanLearning
+1.2.1.1LearningUnderExpertGuidance
+1.2.1.2LearningGuidedbyExpertKnowledge
+1.2.1.3LearningThroughSelfStudy
+
+1.3WhatisMachineLearning?
+1.3.1HowDoMachinesLearn?
+1.3.1.1Abstraction
+1.3.1.2Induction
+
+1.4TypesofMachineLearning
+1.4.1SupervisedLearning
+1.4.1.1Classification
+1.4.1.2Regression
+1.4.2UnsupervisedLearning
+1.4.3ReinforcementLearning
+
+1.5ApplicationsofMachineLearning
+1.5.1BankingandFinance
+1.5.2Insurance
+1.5.3Healthcare
+
+1.6AdvancedLanguages/ToolsinMachineLearning
+1.6.1Python
 1.6.2R
+1.6.3MATLAB
 
-1.6.3 MATLAB
+1.7MachineLearningChallenges
+1.8Summary
 
-1.7机器学习问题
+2.MachineLearningDataPreparation
 
-1.8摘要
+2.1MachineLearningActivities
+2.2FundamentalDataTypesinMachineLearning
+2.3ExploringDataStructures
+2.4ExploringNumericalData
+2.4.1UnderstandingCentralTendency
+2.4.2UnderstandingDataDistribution
+2.4.2.1MeasuringDataDispersion
+2.4.2.2MeasuringDataValuePosition
+2.4.3PlottingandExploringNumericalData
+2.4.3.1Boxplots
+2.4.3.2Histograms
 
+2.5ExploringCategoricalData
+2.6ExploringRelationshipsBetweenVariables
+2.6.1ScatterPlots
+2.6.2ContingencyTables
 
+2.7DataQualityandCleaning
+2.7.1DataQuality
+2.7.2DataCleaning
+2.7.2.1HandlingOutliers
+2.7.2.2HandlingMissingValues
 
+2.8DataPreprocessing
+2.8.1FeatureScaling
+2.8.2Normalization
+2.8.3Standardization
+2.8.4DimensionalityReduction
 
-
-2.机器学习数据准备
-
-2.1机器学习活动
-
-2.2机器学习中的基本数据类型
-
-2.3探索数据结构
-
-2.4探索数值数据
-
-2.4.1理解中心趋势
-
-2.4.2理解数据分布
-
-2.4.2.1测量数据分散
-
-2.4.2.2测量数据值位置
-
-2.4.3绘制和探索数值数据
-
-2.4.3.1箱线图
-
-2.4.3.2直方图
-
-2.5探索分类数据
-
-2.6探索变量之间的关系
-
-2.6.1散点图
-
-2.6.2双向交叉表
-
-2.7数据质量与修复
-
-2.7.1数据质量
-
-2.7.2数据修复
-
-2.7.2.1处理异常值
-
-2.7.2.2处理缺失值
-
-2.7.2.2.3估计缺失值
-
-2.8数据预处理
-
-2.8.1特征缩放是什么?
-
-2.8.1.1为什么特征缩放?
-
-2.8.2正规化
-
-2.8.3标准化
-
-2.8.4维度降低
-
-2.9总结
+2.9Summary
 
 
 
+3.BayesianDecisionTheory
 
+3.1PriorProbability
 
+3.2PosteriorProbability
 
+3.3BayesianDecisionRule
+
+3.4JointProbability
+
+3.5UnivariateNormalDensityFunction
+
+3.6MultivariateNormalDensityFunction
+
+3.7ParameterEstimationforGaussianDensityFunction
+
+3.8MaximumLikelihoodParameterEstimation
+3.8.1LikelihoodFunction
+3.8.2LogLikelihoodFunction
+3.8.3NecessaryConditionsforMaximumLikelihoodEstimation
+3.8.4MaximumLikelihoodEstimation(MLE)
+3.8.5MLEfor\(\mu\)and\(\Sigma\)
+3.8.6Example
+
+3.9GaussianMixtureModel(GMM)
+3.9.1NormalDistribution
+3.9.2ParameterEstimation
+
+3.10ExpectationMaximization(EM)
+3.10.1Algorithm
+3.10.2GMM+EM
+3.10.3Example2
+
+3.11NaïveBayes
+3.11.1JointProbability
+3.11.2PosteriorProbability
+3.11.3TypesofClassifiers
+3.11.3.1GaussianNaïveBayes
+3.11.3.2BernoulliNaïveBayes
+3.11.3.3MultinomialNaïveBayes
+3.11.3.3.1LaplaceSmoothing(AddOneMethod)
 
 
 
@@ -445,38 +317,83 @@ Kernel Methods.
 # 6.List of Github
 
 `````
+D:.
+│  .gitattributes
+│  .gitignore
+│  LICENSE
+│  list.txt
+│  README.md
+│  README_CN.md
+│  
 ├─1.Exam
 │      .keep
+│      22-S2-Q1.pdf
+│      23-S1-Q1.pdf
+│      23-S2-Q1.pdf
+│      24-S1-Q1.pdf
 │      
 ├─2.PPT Example
 │  ├─1.GA
 │  │      1.4.2 Eight-Queen-v2.pdf
+│  │      1.4.2 P、NP、NP-complete 和 NP-hard 类 举例-V2.pdf
+│  │      1.4.2 P、NP、NP-complete 和 NP-hard 类 举例.pdf
 │  │      1.4.2 TSP belong to NP-complete.pdf
+│  │      3 2.5 Example understand.pdf
 │  │      3.3 The 8-queens problem Recombination.pdf
+│  │      3.3.4-Eight-Queens-Recombination.pdf
 │  │      3.4 EC & neighbourhood search.pdf
 │  │      3.4 SGA EXAMPLE f(x) = x^2.pdf
+│  │      4.5.1 mapping read values on bit string.pdf
 │  │      4.6.10 循环交叉.pdf
-│  │      4.6.11 边缘重组.pdf
+│  │      4.6.11边缘重组-v2.pdf
+│  │      4.6.8顺序1阶交叉.pdf
 │  │      4.6.9 部分映射交叉(PMX) EXAMPLE1.pdf
 │  │      4.6.9 部分映射交叉(PMX) EXAMPLE2.pdf
+│  │      4.6.9 部分映射交叉(PMX) PPT.pdf
+│  │      4.7 Tree Representation.pdf
+│  │      5.4.1 Linear Ranking.pdf
+│  │      5.4.2 Exponential Ranking.pdf
+│  │      5.5.1 Tournament selection-with replacement-P smaller than 1.pdf
+│  │      5.5.1 Tournament selection-without replacement-P equal 1.pdf
+│  │      5.9 Selection pressure.pdf
 │  │      
 │  └─2.ML
+│          2.4.2.1 data dispersion.pdf
+│          2.4.3.1 Box plots.pdf
+│          
 ├─3.Understand
 │      .keep
+│      1.1Example of Branch and bound 分支定界.pdf
+│      1.2Example of simulated annealing模拟退火.pdf
+│      1.Metaheuristics 元启发式方法VS Deterministic Algorithm确定性方法.pdf
+│      2.TSP.pdf
+│      3.NP problem.pdf
+│      4.P NP NP-complete NP-hard Example-V3.pdf
+│      5.Eight Queens.pdf
+│      6.GA-v2.pdf
+│      7.No Free Lunch in optimization.pdf
 │      
-└─4.Resource
-    ├─1.OUTLINE
-    │      EE6407-OUTLINE.pdf
-    │      
-    ├─2.EXAM-SUMMARY-CN
-    │      6407考试原题.docx
-    │      
-    └─3.REFERENCES
-            Computational Intelligence. An Introduction (Andries P. Engelbrecht) (Z-Library).pdf
-            Introduction-To-Evolutionary-Computing.pdf
-            Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf
-            The Elements of Statistical Learning Data Mining, Inference, and Prediction (2nd edition) (12print 2017) (Trevor Hastie, Robert Tibshirani etc.) (Z-Library).pdf
-            遗传算法-基本术语(中英文对照).pdf
+├─4.Resource
+│  ├─1.OUTLINE
+│  │      EE6407-OUTLINE.pdf
+│  │      
+│  ├─2.EXAM-SUMMARY-CN
+│  │      6407考试原题.docx
+│  │      
+│  └─3.REFERENCES
+│          Computational Intelligence. An Introduction (Andries P. Engelbrecht) (Z-Library).pdf
+│          Introduction-To-Evolutionary-Computing.pdf
+│          Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf
+│          The Elements of Statistical Learning Data Mining, Inference, and Prediction (2nd edition) (12print 2017) (Trevor Hastie, Robert Tibshirani etc.) (Z-Library).pdf
+│          遗传算法-基本术语(中英文对照).pdf
+│          
+├─assets
+│      3b54fe6d9ee63d988dc3834460c147b.jpg
+│      
+└─README.assets
+        3b54fe6d9ee63d988dc3834460c147b.jpg
+        
+
 `````
 
 

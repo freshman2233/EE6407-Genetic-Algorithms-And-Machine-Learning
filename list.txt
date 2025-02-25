@@ -6,37 +6,73 @@ D:.
 │  LICENSE
 │  list.txt
 │  README.md
+│  README_CN.md
 │  
 ├─1.Exam
 │      .keep
+│      22-S2-Q1.pdf
+│      23-S1-Q1.pdf
+│      23-S2-Q1.pdf
+│      24-S1-Q1.pdf
 │      
 ├─2.PPT Example
 │  ├─1.GA
 │  │      1.4.2 Eight-Queen-v2.pdf
+│  │      1.4.2 P、NP、NP-complete 和 NP-hard 类 举例-V2.pdf
+│  │      1.4.2 P、NP、NP-complete 和 NP-hard 类 举例.pdf
 │  │      1.4.2 TSP belong to NP-complete.pdf
+│  │      3 2.5 Example understand.pdf
 │  │      3.3 The 8-queens problem Recombination.pdf
+│  │      3.3.4-Eight-Queens-Recombination.pdf
 │  │      3.4 EC & neighbourhood search.pdf
 │  │      3.4 SGA EXAMPLE f(x) = x^2.pdf
+│  │      4.5.1 mapping read values on bit string.pdf
 │  │      4.6.10 循环交叉.pdf
-│  │      4.6.11 边缘重组.pdf
+│  │      4.6.11边缘重组-v2.pdf
+│  │      4.6.8顺序1阶交叉.pdf
 │  │      4.6.9 部分映射交叉(PMX) EXAMPLE1.pdf
 │  │      4.6.9 部分映射交叉(PMX) EXAMPLE2.pdf
+│  │      4.6.9 部分映射交叉(PMX) PPT.pdf
+│  │      4.7 Tree Representation.pdf
+│  │      5.4.1 Linear Ranking.pdf
+│  │      5.4.2 Exponential Ranking.pdf
+│  │      5.5.1 Tournament selection-with replacement-P smaller than 1.pdf
+│  │      5.5.1 Tournament selection-without replacement-P equal 1.pdf
+│  │      5.9 Selection pressure.pdf
 │  │      
 │  └─2.ML
+│          2.4.2.1 data dispersion.pdf
+│          2.4.3.1 Box plots.pdf
+│          
 ├─3.Understand
 │      .keep
+│      1.1Example of Branch and bound 分支定界.pdf
+│      1.2Example of simulated annealing模拟退火.pdf
+│      1.Metaheuristics 元启发式方法VS Deterministic Algorithm确定性方法.pdf
+│      2.TSP.pdf
+│      3.NP problem.pdf
+│      4.P NP NP-complete NP-hard Example-V3.pdf
+│      5.Eight Queens.pdf
+│      6.GA-v2.pdf
+│      7.No Free Lunch in optimization.pdf
 │      
-└─4.Resource
-    ├─1.OUTLINE
-    │      EE6407-OUTLINE.pdf
-    │      
-    ├─2.EXAM-SUMMARY-CN
-    │      6407考试原题.docx
-    │      
-    └─3.REFERENCES
-            Computational Intelligence. An Introduction (Andries P. Engelbrecht) (Z-Library).pdf
-            Introduction-To-Evolutionary-Computing.pdf
-            Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf
-            The Elements of Statistical Learning Data Mining, Inference, and Prediction (2nd edition) (12print 2017) (Trevor Hastie, Robert Tibshirani etc.) (Z-Library).pdf
-            遗传算法-基本术语(中英文对照).pdf
-            
+├─4.Resource
+│  ├─1.OUTLINE
+│  │      EE6407-OUTLINE.pdf
+│  │      
+│  ├─2.EXAM-SUMMARY-CN
+│  │      6407考试原题.docx
+│  │      
+│  └─3.REFERENCES
+│          Computational Intelligence. An Introduction (Andries P. Engelbrecht) (Z-Library).pdf
+│          Introduction-To-Evolutionary-Computing.pdf
+│          Pattern Recognition and Machine Learning (Christopher M. Bishop) (Z-Library).pdf
+│          The Elements of Statistical Learning Data Mining, Inference, and Prediction (2nd edition) (12print 2017) (Trevor Hastie, Robert Tibshirani etc.) (Z-Library).pdf
+│          遗传算法-基本术语(中英文对照).pdf
+│          
+├─assets
+│      3b54fe6d9ee63d988dc3834460c147b.jpg
+│      
+└─README.assets
+        3b54fe6d9ee63d988dc3834460c147b.jpg
+        
