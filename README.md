@@ -1,8 +1,6 @@
 # EE6407 Genetic Algorithms And Machine Learning
 
-**语言**
-
-[English](./README.md)     [中文](./README_CN.md)
+[中文](./README_CN.md)
 
 # 1.Introduction
 
